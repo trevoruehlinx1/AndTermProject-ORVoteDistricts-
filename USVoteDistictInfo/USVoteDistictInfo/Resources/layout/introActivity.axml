@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1">
+    <TextView
+        p1:text="Oregon Voting Districts Information"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textAlignment="center"
+        p1:id="@+id/textView2" />
+    <TextView
+        p1:text="Select a state"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textAlignment="center"
+        p1:id="@+id/textView3"
+        p1:layout_marginTop="39.5dp" />
+    <Spinner
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:textAlignment="center"
+        p1:id="@+id/stateSpinner"
+        p1:layout_marginTop="92.5dp" />
+    <Button
+        p1:text="See Voting Districts for Selected State"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/stateSpinner"
+        p1:id="@+id/submitButton" />
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="200.0dp"
+        p1:layout_height="200.0dp"
+        p1:layout_below="@id/submitButton"
+        p1:layout_centerHorizontal="true"
+        p1:id="@+id/stateImage"
+        p1:layout_marginTop="89.5dp" />
+</RelativeLayout>
