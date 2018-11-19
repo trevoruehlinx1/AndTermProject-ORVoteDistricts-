@@ -8,7 +8,7 @@ using Android.Content;
 
 namespace USVoteDistictInfo
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
     public class IntroActivity : AppCompatActivity
     {
         string selectedState;
@@ -19,9 +19,18 @@ namespace USVoteDistictInfo
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.introActivity);
 
+            string affiliation = Intent.GetStringExtra("affiliation");
+
             var submitButton = FindViewById<Button>(Resource.Id.submitButton);
             var stateImageView = FindViewById<ImageView>(Resource.Id.stateImage);
-            stateImageView.SetImageResource(Resource.Drawable.VoteLogo);
+            if(affiliation == "republican")
+                stateImageView.SetImageResource(Resource.Drawable.RepublicanImage);
+            if (affiliation == "democrat")
+                stateImageView.SetImageResource(Resource.Drawable.DemocraticDonkey);
+            if (affiliation == "independent")
+                stateImageView.SetImageResource(Resource.Drawable.IndependentImage);
+            if (affiliation == "unaffiliated")
+                stateImageView.SetImageResource(Resource.Drawable.NoAffiliation);
 
 
             //STATE SPINNER INITIALIZATION
@@ -31,7 +40,7 @@ namespace USVoteDistictInfo
             stateSpinner.Adapter = adapter;
 
             // Event handler for selected spinner item
-            string selectedState = "";
+            selectedState = "";
             stateSpinner.ItemSelected += delegate (object sender, AdapterView.ItemSelectedEventArgs e)
             {
                 Spinner spinner = (Spinner)sender;

@@ -24,10 +24,6 @@ namespace USVoteDistictInfo
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Animation
 		{
 			
@@ -2230,6 +2226,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x7F010002
+			public const int DemocraticDonkey = 2130771970;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -2248,8 +2247,14 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
+			// aapt resource value: 0x7F010003
+			public const int IndependentImage = 2130771971;
+			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
+			
+			// aapt resource value: 0x7F010004
+			public const int NoAffiliation = 2130771972;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -2287,8 +2292,11 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010002
-			public const int Oregon = 2130771970;
+			// aapt resource value: 0x7F010005
+			public const int Oregon = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int RepublicanImage = 2130771974;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2296,8 +2304,8 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010003
-			public const int VoteLogo = 2130771971;
+			// aapt resource value: 0x7F010007
+			public const int VoteLogo = 2130771975;
 			
 			static Drawable()
 			{
@@ -2311,6 +2319,9 @@ namespace USVoteDistictInfo
 		
 		public partial class Id
 		{
+			
+			// aapt resource value: 0x7F020009
+			public const int absoluteImage = 2130837513;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
@@ -2426,6 +2437,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
 			
+			// aapt resource value: 0x7F020005
+			public const int democratCheckBox = 2130837509;
+			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
 			
@@ -2540,6 +2554,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
+			// aapt resource value: 0x7F020006
+			public const int otherCheckBox = 2130837510;
+			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
 			
@@ -2561,8 +2578,11 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
-			// aapt resource value: 0x7F030002
-			public const int relativeLayout1 = 2130903042;
+			// aapt resource value: 0x7F020010
+			public const int relativeLayout1 = 2130837520;
+			
+			// aapt resource value: 0x7F020004
+			public const int republicanCheckBox = 2130837508;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2660,11 +2680,11 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
-			// aapt resource value: 0x7F030007
-			public const int stateImage = 2130903047;
+			// aapt resource value: 0x7F020012
+			public const int stateImage = 2130837522;
 			
-			// aapt resource value: 0x7F030005
-			public const int stateSpinner = 2130903045;
+			// aapt resource value: 0x7F020011
+			public const int stateSpinner = 2130837521;
 			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
@@ -2672,8 +2692,8 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0075
 			public const int submenuarrow = 2131492981;
 			
-			// aapt resource value: 0x7F030006
-			public const int submitButton = 2130903046;
+			// aapt resource value: 0x7F020008
+			public const int submitButton = 2130837512;
 			
 			// aapt resource value: 0x7F0C0076
 			public const int submit_area = 2131492982;
@@ -2702,11 +2722,11 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F030003
-			public const int textView2 = 2130903043;
+			// aapt resource value: 0x7F020002
+			public const int textView2 = 2130837506;
 			
-			// aapt resource value: 0x7F030004
-			public const int textView3 = 2130903044;
+			// aapt resource value: 0x7F020003
+			public const int textView3 = 2130837507;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -2746,6 +2766,9 @@ namespace USVoteDistictInfo
 			
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
+			
+			// aapt resource value: 0x7F020007
+			public const int unaffiliatedCheckBox = 2130837511;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -2896,6 +2919,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
+			// aapt resource value: 0x7F030002
+			public const int AbsoluteIntroActivity = 2130903042;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -2938,14 +2964,14 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F020002
-			public const int districtFactsActivity = 2130837506;
+			// aapt resource value: 0x7F030003
+			public const int districtFactsActivity = 2130903043;
 			
-			// aapt resource value: 0x7F020003
-			public const int introActivity = 2130837507;
+			// aapt resource value: 0x7F030004
+			public const int introActivity = 2130903044;
 			
-			// aapt resource value: 0x7F020004
-			public const int list_item = 2130837508;
+			// aapt resource value: 0x7F030005
+			public const int list_item = 2130903045;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;

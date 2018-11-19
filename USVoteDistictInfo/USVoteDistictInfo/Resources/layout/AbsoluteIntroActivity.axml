@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Oregon Voting Districts Information"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Please indicate politcal party affiliation"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:layout_marginTop="37.0dp" />
+    <CheckBox
+        android:text="I am a Republican"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/republicanCheckBox"
+        android:layout_marginTop="21.5dp" />
+    <CheckBox
+        android:text="I am a Democrat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/democratCheckBox"
+        android:checked="false" />
+    <CheckBox
+        android:text="I am independent or affiliated with an unlisted party"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/otherCheckBox" />
+    <CheckBox
+        android:text="I am unaffiliated with any political party"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/unaffiliatedCheckBox" />
+    <Button
+        android:text="Submit Party Affiliation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/absoluteImage"
+        android:layout_marginLeft="62.0dp" />
+</LinearLayout>

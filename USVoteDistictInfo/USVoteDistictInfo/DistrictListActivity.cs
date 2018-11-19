@@ -15,6 +15,8 @@ namespace USVoteDistictInfo
     [Activity(Label = "DistrictListActivity")]
     public class DistrictListActivity : ListActivity
     {
+        string[] districtArray;
+        List<VotingDistrict> districtList;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -25,19 +27,25 @@ namespace USVoteDistictInfo
             VotingDistrict votingDistrict = new VotingDistrict();
             votingDistrict.AddDistrictInfoToLists();
             string selectedState = Intent.GetStringExtra("selectedState");
-            List<VotingDistrict> districtList = votingDistrict.GetStateDistrictList(selectedState);
-            string[] districtArray = new string[districtList.Count];
+            districtList = votingDistrict.GetStateDistrictList(selectedState);
+            districtArray = new string[districtList.Count];
 
             for (int i = 0; i < districtArray.Length; i++)
             {
                 districtArray[i] =
-                   districtList[i].State +" " + districtList[i].Name +" "+ districtList[i].PoliticalAffiliation;
+                   districtList[i].State +" " + districtList[i].Name +" "+ districtList[i].PoliticalAffiliation
+                   +" CVPA= "+ districtList[i].CPVA;
             }
 
             // Create your application here
             ListAdapter = new ArrayAdapter<string>(this, Resource.Layout.list_item,districtArray);
 
             ListView.TextFilterEnabled = true;
+        }
+        protected override void OnListItemClick(ListView l, View v, int position, long id)
+        {
+            VotingDistrict district = districtList[position];
+            Toast.MakeText(Application, "US Representitive " + district.Representative, ToastLength.Short).Show();
         }
     }
 }
