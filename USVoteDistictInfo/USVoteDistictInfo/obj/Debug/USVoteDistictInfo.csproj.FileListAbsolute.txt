@@ -64,3 +64,4 @@ C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\android\assets\USVoteDistictInfo.dll.mdb
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\drawable\independentimage.jpg
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\drawable\noaffiliation.jpg
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout\cvpi.xml

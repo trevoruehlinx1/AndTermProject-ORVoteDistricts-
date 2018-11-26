@@ -17,7 +17,7 @@ namespace USVoteDistictInfo
         public string Name { get; set; }
         public string State { get; set; }
         public string PoliticalAffiliation { get; set; }
-        public string CPVA { get; set; }
+        public string CPVI { get; set; }
         public string Representative { get; set; }
 
         private List<VotingDistrict> oregon = new List<VotingDistrict>();
@@ -59,14 +59,14 @@ namespace USVoteDistictInfo
             else
                 return washington;
         }
-        public VotingDistrict AddVotingDistrict(string state, string name, string pa, string cpva, string rep)
+        public VotingDistrict AddVotingDistrict(string state, string name, string pa, string cpvi, string rep)
         {
             VotingDistrict district = new VotingDistrict
             {
                 State = state,
                 Name = name,
                 PoliticalAffiliation = pa,
-                CPVA = cpva,
+                CPVI = cpvi,
                 Representative = rep
             };
             return district;

@@ -34,7 +34,7 @@ namespace USVoteDistictInfo
             {
                 districtArray[i] =
                    districtList[i].State +" " + districtList[i].Name +" "+ districtList[i].PoliticalAffiliation
-                   +" CVPA= "+ districtList[i].CPVA;
+                   +" CPVI= "+ districtList[i].CPVI;
             }
 
             // Create your application here

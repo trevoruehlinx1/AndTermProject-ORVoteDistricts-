@@ -10,6 +10,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="CVPIInfoActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.CVPIInfoActivity" />
     <activity android:label="DistrictFactActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.DistrictFactsActivity" />
     <activity android:label="DistrictListActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.DistrictListActivity" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.IntroActivity" />

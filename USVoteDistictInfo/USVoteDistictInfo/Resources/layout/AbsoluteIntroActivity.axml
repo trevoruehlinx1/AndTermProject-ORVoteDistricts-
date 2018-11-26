@@ -6,7 +6,7 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <TextView
-        android:text="Oregon Voting Districts Information"
+        android:text="US Voting Districts Information"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,5 +52,5 @@
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:id="@+id/absoluteImage"
-        android:layout_marginLeft="62.0dp" />
+        android:layout_marginLeft="77.0dp" />
 </LinearLayout>

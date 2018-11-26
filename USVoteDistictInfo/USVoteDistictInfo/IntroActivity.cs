@@ -52,6 +52,12 @@ namespace USVoteDistictInfo
                 intent.PutExtra("selectedState", selectedState);
                 StartActivity(intent);
             };
+            var CVPIInfoButton = FindViewById<Button>(Resource.Id.button1);
+            CVPIInfoButton.Click += delegate
+            {
+                Intent CVPIIntent = new Intent(this, typeof(CVPIInfoActivity));
+                StartActivity(CVPIIntent);
+            };
         }
     }
 }

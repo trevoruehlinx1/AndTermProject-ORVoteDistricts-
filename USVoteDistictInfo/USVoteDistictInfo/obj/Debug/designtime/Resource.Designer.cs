@@ -24,6 +24,10 @@ namespace USVoteDistictInfo
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Animation
 		{
 			
@@ -2401,6 +2405,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F020013
+			public const int button1 = 2130837523;
+			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
@@ -2922,6 +2929,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F030002
 			public const int AbsoluteIntroActivity = 2130903042;
 			
+			// aapt resource value: 0x7F030003
+			public const int CVPI = 2130903043;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -2964,14 +2974,14 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030003
-			public const int districtFactsActivity = 2130903043;
-			
 			// aapt resource value: 0x7F030004
-			public const int introActivity = 2130903044;
+			public const int districtFactsActivity = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int list_item = 2130903045;
+			public const int introActivity = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int list_item = 2130903046;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
