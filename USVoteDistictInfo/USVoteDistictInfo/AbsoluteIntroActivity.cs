@@ -23,10 +23,10 @@ namespace USVoteDistictInfo
             // Create your application here
             var submitButton = FindViewById<Button>(Resource.Id.submitButton);
             var absoluteImage = FindViewById<ImageView>(Resource.Id.absoluteImage);
-            var republicanCheckbox = FindViewById<CheckBox>(Resource.Id.republicanCheckBox);
-            var democratCheckbox = FindViewById<CheckBox>(Resource.Id.democratCheckBox);
-            var independentCheckbox = FindViewById<CheckBox>(Resource.Id.otherCheckBox);
-            var unaffiliatedCheckbox = FindViewById<CheckBox>(Resource.Id.unaffiliatedCheckBox);
+            var republicanCheckbox = FindViewById<RadioButton>(Resource.Id.republicanButton);
+            var democratCheckbox = FindViewById<RadioButton>(Resource.Id.DemocratButton);
+            var independentCheckbox = FindViewById<RadioButton>(Resource.Id.independentButton);
+            var unaffiliatedCheckbox = FindViewById<RadioButton>(Resource.Id.noneButton);
 
             absoluteImage.SetImageResource(Resource.Drawable.VoteLogo);
 
