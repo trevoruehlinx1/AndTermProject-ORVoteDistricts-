@@ -27,21 +27,28 @@ namespace USVoteDistictInfo
             var democratCheckbox = FindViewById<RadioButton>(Resource.Id.DemocratButton);
             var independentCheckbox = FindViewById<RadioButton>(Resource.Id.independentButton);
             var unaffiliatedCheckbox = FindViewById<RadioButton>(Resource.Id.noneButton);
+            var meddlerCheckbox = FindViewById<CheckBox>(Resource.Id.meddlerCheckbox);
 
             absoluteImage.SetImageResource(Resource.Drawable.VoteLogo);
 
             submitButton.Click += delegate
             {
-                Intent introIntent = new Intent(this, typeof(IntroActivity));
-                if (republicanCheckbox.Checked == true)
-                    introIntent.PutExtra("affiliation", "republican");
-                if (democratCheckbox.Checked == true)
-                    introIntent.PutExtra("affiliation", "democrat");
-                if (independentCheckbox.Checked == true)
-                    introIntent.PutExtra("affiliation", "independent");
-                if (unaffiliatedCheckbox.Checked == true)
-                    introIntent.PutExtra("affiliation", "unaffiliated");
-                StartActivity(introIntent);
+                if (meddlerCheckbox.Checked )
+                {
+                    Intent introIntent = new Intent(this, typeof(IntroActivity));
+                    if (republicanCheckbox.Checked == true)
+                        introIntent.PutExtra("affiliation", "republican");
+                    if (democratCheckbox.Checked == true)
+                        introIntent.PutExtra("affiliation", "democrat");
+                    if (independentCheckbox.Checked == true)
+                        introIntent.PutExtra("affiliation", "independent");
+                    if (unaffiliatedCheckbox.Checked == true)
+                        introIntent.PutExtra("affiliation", "unaffiliated");
+                    StartActivity(introIntent);
+                }
+                else
+
+                    Toast.MakeText(Application,Resource.String.toastString, ToastLength.Short).Show();
             };
         }
     }

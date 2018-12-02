@@ -46,15 +46,23 @@
             android:text="I have no political affiliation"
             android:id="@+id/noneButton" />
     </RadioGroup>
+    <CheckBox
+        android:text="I am not a Russian Meddler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/meddlerCheckbox"
+        android:layout_marginTop="9.5dp" />
     <Button
         android:text="Submit Party Affiliation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/submitButton" />
+        android:id="@+id/submitButton"
+        android:layout_marginTop="0.0dp" />
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:id="@+id/absoluteImage"
-        android:layout_marginLeft="77.0dp" />
+        android:layout_marginLeft="77.0dp"
+        android:layout_marginTop="0.0dp" />
 </LinearLayout>
