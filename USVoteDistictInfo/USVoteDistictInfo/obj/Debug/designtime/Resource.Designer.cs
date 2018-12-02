@@ -2401,8 +2401,8 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020016
-			public const int button1 = 2130837526;
+			// aapt resource value: 0x7F020019
+			public const int button1 = 2130837529;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2419,6 +2419,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
+			// aapt resource value: 0x7F020014
+			public const int clickButton = 2130837524;
+			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
 			
@@ -2427,6 +2430,9 @@ namespace USVoteDistictInfo
 			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
+			
+			// aapt resource value: 0x7F020015
+			public const int countLabel = 2130837525;
 			
 			// aapt resource value: 0x7F0C0023
 			public const int custom = 2131492899;
@@ -2503,6 +2509,9 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
 			
+			// aapt resource value: 0x7F020013
+			public const int instructionLabel = 2130837523;
+			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
 			
@@ -2520,6 +2529,12 @@ namespace USVoteDistictInfo
 			
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
+			
+			// aapt resource value: 0x7F020020
+			public const int linearLayout1 = 2130837536;
+			
+			// aapt resource value: 0x7F020021
+			public const int linearLayout2 = 2130837537;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
@@ -2590,8 +2605,8 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F020004
 			public const int radioGroup1 = 2130837508;
 			
-			// aapt resource value: 0x7F020013
-			public const int relativeLayout1 = 2130837523;
+			// aapt resource value: 0x7F020016
+			public const int relativeLayout1 = 2130837526;
 			
 			// aapt resource value: 0x7F020005
 			public const int republicanButton = 2130837509;
@@ -2692,11 +2707,11 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
-			// aapt resource value: 0x7F020015
-			public const int stateImage = 2130837525;
+			// aapt resource value: 0x7F020018
+			public const int stateImage = 2130837528;
 			
-			// aapt resource value: 0x7F020014
-			public const int stateSpinner = 2130837524;
+			// aapt resource value: 0x7F020017
+			public const int stateSpinner = 2130837527;
 			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;

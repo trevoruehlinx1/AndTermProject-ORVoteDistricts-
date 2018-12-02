@@ -47,5 +47,6 @@ namespace USVoteDistictInfo
             VotingDistrict district = districtList[position];
             Toast.MakeText(Application, "US Representitive " + district.Representative, ToastLength.Short).Show();
         }
+        
     }
 }

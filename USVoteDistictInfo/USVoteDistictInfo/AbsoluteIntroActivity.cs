@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace USVoteDistictInfo
 {
-    [Activity(Label = "AbsoluteIntroActivity",MainLauncher = true)]
+    [Activity(Label = "AbsoluteIntroActivity",MainLauncher = false)]
     public class AbsoluteIntroActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

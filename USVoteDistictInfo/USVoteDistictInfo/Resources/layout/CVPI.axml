@@ -6,8 +6,27 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <TextView
-        android:text="           The Cook Partisan Voting Index, often abbreviated as CPVI or simply PVI, is a measurement of how strongly a United States congressional district or state leans toward the Democratic or Republican Party, compared to the nation as a whole. The index is updated after each election cycle. The Cook Political Report introduced the PVI in August 1997 to better gauge the competitiveness of each district using the 1992 and 1996 presidential elections as a baseline.[1] The index is based on analysis by the Center for Voting and Democracy (now FairVote) for its July 1997 Monopoly Politics report."
+        android:text="The Cook Partisan Voting Index, often abbreviated as CPVI or simply PVI, is a measurement of how strongly a United States congressional district or state leans toward the Democratic or Republican Party, compared to the nation as a whole. The index is updated after each election cycle. The Cook Political Report introduced the PVI in August 1997 to better gauge the competitiveness of each district using the 1992 and 1996 presidential elections as a baseline.[1] The index is based on analysis by the Center for Voting and Democracy (now FairVote) for its July 1997 Monopoly Politics report."
         android:layout_width="match_parent"
-        android:layout_height="315.0dp"
+        android:layout_height="186.5dp"
         android:id="@+id/textView1" />
+    <TextView
+        android:text="By the way...Click this button"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructionLabel" />
+    <Button
+        android:text="Click Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clickButton" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/countLabel" />
 </LinearLayout>

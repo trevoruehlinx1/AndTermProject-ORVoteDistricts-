@@ -45,6 +45,7 @@ namespace USVoteDistictInfo
             {
                 Spinner spinner = (Spinner)sender;
                 selectedState = (string)spinner.GetItemAtPosition(e.Position);
+                submitButton.Text = "See the voting districts for " + selectedState;
             };
             submitButton.Click += delegate
             {
@@ -58,6 +59,10 @@ namespace USVoteDistictInfo
                 Intent CVPIIntent = new Intent(this, typeof(CVPIInfoActivity));
                 StartActivity(CVPIIntent);
             };
+        }
+        protected override void OnSaveInstanceState(Bundle outState)
+        {
+            base.OnSaveInstanceState(outState);
         }
     }
 }
