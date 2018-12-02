@@ -2950,7 +2950,10 @@ namespace USVoteDistictInfo
 			public const int AbsoluteIntroActivity = 2130903042;
 			
 			// aapt resource value: 0x7F030003
-			public const int CVPI = 2130903043;
+			public const int CPVI = 2130903043;
+			
+			// aapt resource value: 0x7F030007
+			public const int CVPI = 2130903047;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;

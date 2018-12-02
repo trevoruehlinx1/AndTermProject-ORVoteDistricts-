@@ -4,13 +4,13 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="AbsoluteIntroActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.AbsoluteIntroActivity" />
-    <activity android:label="CVPIInfoActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.CVPIInfoActivity">
+    <activity android:label="AbsoluteIntroActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.AbsoluteIntroActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="CVPIInfoActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.CPVIInfoActivity" />
     <activity android:label="DistrictFactActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.DistrictFactsActivity" />
     <activity android:label="DistrictListActivity" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.DistrictListActivity" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5012dd83a5fdbcb4122e8a912bbb2e904.IntroActivity" />

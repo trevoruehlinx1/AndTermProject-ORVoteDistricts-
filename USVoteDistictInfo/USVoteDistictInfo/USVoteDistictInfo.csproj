@@ -57,7 +57,7 @@
   <ItemGroup>
     <Compile Include="AbsoluteIntroActivity.cs" />
     <Compile Include="AppInfo.cs" />
-    <Compile Include="CVPIInfoActivity.cs" />
+    <Compile Include="CPVIInfoActivity.cs" />
     <Compile Include="DistrictFactsActivity.cs" />
     <Compile Include="DistrictListActivity.cs" />
     <Compile Include="IntroActivity.cs" />
@@ -131,7 +131,7 @@
     <AndroidResource Include="Resources\drawable\NoAffiliation.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\CVPI.axml">
+    <AndroidResource Include="Resources\layout\CPVI.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

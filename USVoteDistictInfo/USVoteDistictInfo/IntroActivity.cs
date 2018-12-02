@@ -56,7 +56,7 @@ namespace USVoteDistictInfo
             var CVPIInfoButton = FindViewById<Button>(Resource.Id.button1);
             CVPIInfoButton.Click += delegate
             {
-                Intent CVPIIntent = new Intent(this, typeof(CVPIInfoActivity));
+                Intent CVPIIntent = new Intent(this, typeof(CPVIInfoActivity));
                 StartActivity(CVPIIntent);
             };
         }
