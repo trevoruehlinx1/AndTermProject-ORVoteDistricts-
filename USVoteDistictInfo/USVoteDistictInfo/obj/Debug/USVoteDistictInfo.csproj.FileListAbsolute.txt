@@ -65,8 +65,12 @@ C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\drawable\independentimage.jpg
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\drawable\noaffiliation.jpg
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout-land\absoluteintroactivity.xml
-C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout-land\cvpi.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout-land\districtfactsactivity.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout-land\introactivity.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout-land\list_item.xml
 C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout\cpvi.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\drawable\minus.png
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\drawable\plus.png
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\res\layout-land\cpvi.xml
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\bin\Debug\USVoteDistictInfo.dll
+C:\Users\Trevor Uehlin\Documents\AndroidSolutions\Term-Project\USVoteDistictInfo\USVoteDistictInfo\obj\Debug\linksrc\USVoteDistictInfo.dll.mdb

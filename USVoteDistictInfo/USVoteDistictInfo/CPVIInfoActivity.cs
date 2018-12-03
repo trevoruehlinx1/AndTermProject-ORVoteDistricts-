@@ -16,6 +16,8 @@ namespace USVoteDistictInfo
     public class CPVIInfoActivity : Activity
     {
         int count;
+        string message;
+        AppInfo appInfo;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -24,32 +26,35 @@ namespace USVoteDistictInfo
             SetContentView(Resource.Layout.CPVI);
 
             var instructionsLabel = FindViewById<TextView>(Resource.Id.instructionLabel);
-            var clickButton = FindViewById<Button>(Resource.Id.clickButton);
+            var plusClickButton = FindViewById<Button>(Resource.Id.clickButton);
+            var minusClickButton = FindViewById<Button>(Resource.Id.clickButton2);
             var clickCountLabel = FindViewById<TextView>(Resource.Id.countLabel);
+            appInfo = new AppInfo();
 
             if (savedInstanceState != null)
-                count = savedInstanceState.GetInt("count");
-            clickCountLabel.Text = count.ToString();
-
-
-
-            clickButton.Click += delegate
             {
-                if (count >= 1 && count < 6)
-                    instructionsLabel.Text = "At least you have voted.";
-                if (count >= 6 && count < 10)
-                    instructionsLabel.Text = "Your a voter.";
-                if (count >= 10 && count < 15)
-                    instructionsLabel.Text = "You are a serious voter.";
-                if (count > 15)
-                    instructionsLabel.Text = "You are a voting master.";
+                count = savedInstanceState.GetInt("count");
+                message = savedInstanceState.GetString("ageMessage");
+                clickCountLabel.Text = count.ToString();
+                instructionsLabel.Text = message;
+            }
+            plusClickButton.Click += delegate
+            {
                 count++;
                 clickCountLabel.Text = count.ToString();
+                instructionsLabel.Text = appInfo.GetAgeMessage(count);
+            };
+            minusClickButton.Click += delegate
+            {
+                count--;
+                clickCountLabel.Text = count.ToString();
+                instructionsLabel.Text = appInfo.GetAgeMessage(count);
             };
         }
         protected override void OnSaveInstanceState(Bundle outState)
         {
             outState.PutInt("count", count);
+            outState.PutString("ageMessage", appInfo.GetAgeMessage(count));
             base.OnSaveInstanceState(outState);
         }
     }

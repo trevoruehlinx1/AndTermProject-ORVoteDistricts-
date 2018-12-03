@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>12/2/2018 3:52:02 PM</xs:documentation>
+    <xs:documentation>12/3/2018 11:49:16 AM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -552,6 +552,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -567,6 +568,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -1023,6 +1025,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -1167,6 +1170,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -1182,6 +1186,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -1725,6 +1730,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -1740,6 +1746,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -2260,6 +2267,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -2275,6 +2283,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -3119,6 +3128,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -3134,6 +3144,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -3654,6 +3665,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -3669,6 +3681,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -4125,6 +4138,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -4269,6 +4283,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -4284,6 +4299,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -5236,6 +5252,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -5251,6 +5268,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -5771,6 +5789,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -5786,6 +5805,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -7346,6 +7366,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -7361,6 +7382,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -7939,6 +7961,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -7954,6 +7977,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -8474,6 +8498,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -8489,6 +8514,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -9009,6 +9035,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -9024,6 +9051,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -9544,6 +9572,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -9559,6 +9588,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -10121,6 +10151,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -10136,6 +10167,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -10656,6 +10688,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -10671,6 +10704,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -11275,6 +11309,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -11290,6 +11325,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -11788,6 +11824,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -12031,6 +12068,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -12046,6 +12084,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -12637,6 +12676,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -12652,6 +12692,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -13355,6 +13396,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -13370,6 +13412,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -14073,6 +14116,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -14088,6 +14132,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -14608,6 +14653,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -14623,6 +14669,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -15079,6 +15126,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -15171,6 +15219,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -15747,6 +15796,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -15762,6 +15812,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -16218,6 +16269,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -16362,6 +16414,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -16377,6 +16430,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -16833,6 +16887,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -16977,6 +17032,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -16992,6 +17048,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -17962,6 +18019,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -17977,6 +18035,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -18433,6 +18492,7 @@
             <xs:enumeration value="@string/abc_shareactionprovider_share_with" />
             <xs:enumeration value="@string/abc_shareactionprovider_share_with_application" />
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
+            <xs:enumeration value="@string/aboutcpvi" />
             <xs:enumeration value="@string/action_settings" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/appbar_scrolling_view_behavior" />
@@ -19024,6 +19084,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -19039,6 +19100,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -19559,6 +19621,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -19574,6 +19637,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -20264,6 +20328,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -20279,6 +20344,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -20982,6 +21048,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -20997,6 +21064,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -21529,6 +21597,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -21544,6 +21613,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -22247,6 +22317,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -22262,6 +22333,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -23172,6 +23244,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -23187,6 +23260,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -23707,6 +23781,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -23722,6 +23797,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -26393,6 +26469,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -26408,6 +26485,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -28732,6 +28810,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -28747,6 +28826,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -29450,6 +29530,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -29465,6 +29546,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -29985,6 +30067,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -30000,6 +30083,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
@@ -30764,6 +30848,7 @@
             <xs:enumeration value="@drawable/design_password_eye" />
             <xs:enumeration value="@drawable/design_snackbar_background" />
             <xs:enumeration value="@drawable/independentimage" />
+            <xs:enumeration value="@drawable/minus" />
             <xs:enumeration value="@drawable/navigation_empty_icon" />
             <xs:enumeration value="@drawable/noaffiliation" />
             <xs:enumeration value="@drawable/notification_action_background" />
@@ -30779,6 +30864,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/oregon" />
+            <xs:enumeration value="@drawable/plus" />
             <xs:enumeration value="@drawable/republicanimage" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />

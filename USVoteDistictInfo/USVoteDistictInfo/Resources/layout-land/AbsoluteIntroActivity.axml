@@ -34,23 +34,23 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:text="I am a Republican"
+                android:text="Republican"
                 android:id="@+id/republicanButton" />
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="I am a Democrat"
+                android:text="Democrat"
                 android:id="@+id/DemocratButton" />
             <RadioButton
-                android:text="I am an Independent"
-                android:layout_width="match_parent"
+                android:text="Independent or other"
+                android:layout_width="163.0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/independentButton" />
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="I have no political affiliation"
+                android:checked="true"
+                android:text="No political affiliation"
                 android:id="@+id/noneButton" />
         </RadioGroup>
         <ImageView
@@ -58,10 +58,10 @@
             android:id="@+id/absoluteImage"
             android:layout_width="137.5dp"
             android:layout_height="137.5dp"
-            android:layout_marginLeft="208.5dp" />
+            android:layout_marginLeft="187.0dp" />
     </LinearLayout>
     <CheckBox
-        android:text="I am not a Russian Meddler"
+        android:text="I am not an election meddler."
         android:layout_width="247.0dp"
         android:layout_height="wrap_content"
         android:id="@+id/meddlerCheckbox"

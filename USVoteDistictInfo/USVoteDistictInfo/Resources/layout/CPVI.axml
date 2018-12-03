@@ -11,22 +11,27 @@
         android:layout_height="186.5dp"
         android:id="@+id/textView1" />
     <TextView
-        android:text="How many times have you voted"
+        android:text="How many times have you voted?"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textAlignment="center"
-        android:layout_width="match_parent"
+        android:layout_width="382.0dp"
         android:layout_height="wrap_content"
         android:id="@+id/instructionLabel" />
     <Button
-        android:text="Click here for each time you have voted!"
+        android:text="More"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/clickButton" />
     <TextView
-        android:text=""
+        android:text="0"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:id="@+id/countLabel" />
+    <Button
+        android:text="Less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clickButton2" />
 </LinearLayout>

@@ -2250,11 +2250,14 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F010003
 			public const int IndependentImage = 2130771971;
 			
+			// aapt resource value: 0x7F010004
+			public const int minus = 2130771972;
+			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F010004
-			public const int NoAffiliation = 2130771972;
+			// aapt resource value: 0x7F010005
+			public const int NoAffiliation = 2130771973;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -2292,11 +2295,14 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010005
-			public const int Oregon = 2130771973;
-			
 			// aapt resource value: 0x7F010006
-			public const int RepublicanImage = 2130771974;
+			public const int Oregon = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int plus = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int RepublicanImage = 2130771976;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2304,8 +2310,8 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010007
-			public const int VoteLogo = 2130771975;
+			// aapt resource value: 0x7F010009
+			public const int VoteLogo = 2130771977;
 			
 			static Drawable()
 			{
@@ -2401,8 +2407,8 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020019
-			public const int button1 = 2130837529;
+			// aapt resource value: 0x7F020020
+			public const int button1 = 2130837536;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2421,6 +2427,9 @@ namespace USVoteDistictInfo
 			
 			// aapt resource value: 0x7F020014
 			public const int clickButton = 2130837524;
+			
+			// aapt resource value: 0x7F020016
+			public const int clickButton2 = 2130837526;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
@@ -2530,11 +2539,11 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
-			// aapt resource value: 0x7F020020
-			public const int linearLayout1 = 2130837536;
-			
 			// aapt resource value: 0x7F020021
-			public const int linearLayout2 = 2130837537;
+			public const int linearLayout1 = 2130837537;
+			
+			// aapt resource value: 0x7F020022
+			public const int linearLayout2 = 2130837538;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
@@ -2605,8 +2614,8 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F020004
 			public const int radioGroup1 = 2130837508;
 			
-			// aapt resource value: 0x7F020016
-			public const int relativeLayout1 = 2130837526;
+			// aapt resource value: 0x7F020017
+			public const int relativeLayout1 = 2130837527;
 			
 			// aapt resource value: 0x7F020005
 			public const int republicanButton = 2130837509;
@@ -2707,11 +2716,11 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
-			// aapt resource value: 0x7F020018
-			public const int stateImage = 2130837528;
+			// aapt resource value: 0x7F020019
+			public const int stateImage = 2130837529;
 			
-			// aapt resource value: 0x7F020017
-			public const int stateSpinner = 2130837527;
+			// aapt resource value: 0x7F020018
+			public const int stateSpinner = 2130837528;
 			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
@@ -2952,9 +2961,6 @@ namespace USVoteDistictInfo
 			// aapt resource value: 0x7F030003
 			public const int CPVI = 2130903043;
 			
-			// aapt resource value: 0x7F030007
-			public const int CVPI = 2130903047;
-			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -3187,6 +3193,9 @@ namespace USVoteDistictInfo
 			
 			// aapt resource value: 0x7F15001D
 			public const int abc_toolbar_collapse_description = 2132082717;
+			
+			// aapt resource value: 0x7F060005
+			public const int aboutcpvi = 2131099653;
 			
 			// aapt resource value: 0x7F060003
 			public const int action_settings = 2131099651;
