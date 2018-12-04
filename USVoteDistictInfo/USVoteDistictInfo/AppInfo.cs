@@ -34,13 +34,14 @@ namespace USVoteDistictInfo
             string ageMessage = "";
             int age;
             if (count == 0)
-                ageMessage = "You must be under 18";
+                ageMessage = "An appropriate number of votes for someone under 18 years old.";
             else if (count == 1)
-                ageMessage = "You must be something like 18 or 19 years old.";
+                ageMessage = "An appropriate number of trips to the ballot box for someone under 20";
             else
             {
                 age = count * 2 + 18;
-                ageMessage = "You must be somewhere around " + age + " years old.";
+                ageMessage = count+" is an acceptable number of votes for someone who is " +age+ 
+                                " years old or younger.";
             }
             return ageMessage;
         }
